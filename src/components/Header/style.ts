@@ -5,7 +5,7 @@ export const HeaderDiv = styled.header`
   justify-content: center;
   align-items: center;
   margin-top: 2rem;
-margin-bottom: 2rem;
+  margin-bottom: 4rem;
   padding: 10px 0;
   background-color: #fff;
 
@@ -15,10 +15,13 @@ export const ContainerHeader = styled.section`
   display: flex;
   justify-content: space-around;
   align-items: center;
+  padding-bottom: 4rem;
+  padding-top: 2rem;
   
-  border-bottom: 1px solid #000;
+  
+  border-bottom: 1px solid #9b9b9b;
   width: 75%;
-  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  
 `
 
 export const ButtonHeader = styled.button`
@@ -49,6 +52,10 @@ export const ButtonHeader = styled.button`
  vertical-align: middle;
  white-space: nowrap;
 
+ &:last-child{
+  margin-left: 1rem;
+ }
+
  &:after {
  background-clip: padding-box;
  background-color: #1CB0F6;
@@ -57,11 +64,8 @@ export const ButtonHeader = styled.button`
  border-width: 0 0 4px;
  bottom: -4px;
  content: "";
- left: 0;
- position: absolute;
- right: 0;
- top: 0;
- z-index: -1;
+ 
+
 }
 
 &:main, &:focus {
