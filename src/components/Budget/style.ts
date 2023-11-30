@@ -16,7 +16,7 @@ background: #d9d9d7;
   input{
     
     border: none;
-    width: 100px;
+    width: 120px;
 
     background: #d9d9d7;
     
