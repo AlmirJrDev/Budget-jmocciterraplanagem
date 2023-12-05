@@ -1,6 +1,8 @@
-import { BudgetContainer, FormBudget, InputName, } from "./style";
+import { Address, BudgetContainer, FormBudget, InputName, Mask, TdInformation, TdTime, TdValor, } from "./style";
 import  {  useState } from 'react';
 import InputMask from 'react-input-mask';
+
+
 
 
 
@@ -15,7 +17,7 @@ export function BudgetSheet() {
         <table>
 <tbody>
 <tr>
-<InputName><label >Cliente: <input type="text" /></label></InputName>
+<InputName><label >Cliente: <input type="text" maxLength={29}/></label></InputName>
 <td><label>Tel: <InputMask mask="(99) 99999-9999"  maskChar=""
                       type="text" /></label> </td>
 <td><label>Data: <input type="date" /></label> </td>
@@ -25,8 +27,8 @@ export function BudgetSheet() {
 <table>
 <tbody>
 <tr>
-<td><label >Endereço: <input type="text" /></label></td>
-<td><label>  <select
+<Address><label >Endereço: <input type="text" maxLength={40}/></label></Address>
+<Mask><label>  <select
                       value={documentType}
                       onChange={(e) => setDocumentType(e.target.value)}
                     >
@@ -39,19 +41,20 @@ export function BudgetSheet() {
                       type="text"
                       placeholder={documentType === 'CPF' ? 'CPF' : 'CNPJ'}
                    
-                    /></label> </td>
+                    /></label> </Mask>
 </tr>
 </tbody>
 </table>
 <table>
 <tbody>
   <tr>
-<td><label>Serviços: <input type="text" /></label></td>
-<td><label>Horas: <input type="number" /></label> </td>
-<td><label>Valor: <input type="text" /></label> </td>
+<TdInformation><label>Projeto: <input type="text" maxLength={35}/></label></TdInformation>
+<TdTime><label>Horas</label> </TdTime>
+<TdValor>Valor</TdValor>
 </tr>
 </tbody>
 </table>
+
 
 
 

@@ -1,16 +1,11 @@
-import { Budget } from "./components/HeaderBudget"
-import { Header } from "./components/Header"
-import { BudgetSheet } from "./components/Budget"
-import { TableService } from "./components/TableService"
+
+import ExemploReactToPrint from "./components/Printer"
 
 function App() {
   
   return (
     <>
-     <Header/>
-     <Budget />
-     <BudgetSheet /> 
-     <TableService/>
+     < ExemploReactToPrint/>
     </>
   )
 }

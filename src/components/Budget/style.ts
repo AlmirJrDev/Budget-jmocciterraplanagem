@@ -12,11 +12,11 @@ align-items: center;
 justify-content: center;
 background: #d9d9d7;
 
- width: 50vw;
+ 
   input{
-    
+    font-size: smal l;
     border: none;
-    width: 120px;
+  
 
     background: #d9d9d7;
     
@@ -31,14 +31,19 @@ background: #d9d9d7;
 }
   }
   table{
-    width: 50vw;
+    
   }
   td{
-    width: 70%;
-    height: 25px;
+    height: 40px;
+ margin: 0 auto;
     border: 1px solid #000;
     label{
     text-align: center;
+    input{
+    width: 72%;
+    
+  }
+   
   }
   }
 
@@ -48,10 +53,18 @@ background: #d9d9d7;
 export const InputName = styled.td`
   width:300px;
   input{
-    width: 75%;
+    width: 200px;
     
   }
   
+`
+export const Address = styled.td`
+
+width: 420px;
+`
+
+export const Mask = styled.td`
+width: 245px;
 `
 
 export const NumberId = styled.td`
@@ -67,4 +80,20 @@ border: 1px solid #000;
     
   }
   
+`
+
+export const TdTime = styled.td`
+  width: 175px;
+  text-align: center;
+`
+export const TdInformation = styled.td`
+  width: 362px;
+ 
+  input{
+    
+  }
+`
+export const TdValor = styled.td`
+  width: 123px;
+  text-align: center;
 `
