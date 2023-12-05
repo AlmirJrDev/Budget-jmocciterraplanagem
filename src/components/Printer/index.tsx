@@ -22,12 +22,14 @@ class ComponenteParaImprimir extends React.Component<ComponenteParaImprimirProps
 
 const ExemploReactToPrint: React.FC = () => {
   const componenteRef = useRef<ComponenteParaImprimir>(null);
-
+  const handleReload = () => {
+    window.location.reload();
+  };
   return (
     <div>
       <HeaderDiv>
           <ContainerHeader>
-          <div><ButtonHeader>NOVO</ButtonHeader></div>
+          <div><ButtonHeader onClick={handleReload}>NOVO</ButtonHeader></div>
           <ReactToPrint
       
       trigger={() =>   <div><ButtonHeader>IMPRIMIR</ButtonHeader><ButtonHeader>BAIXAR</ButtonHeader></div>}
