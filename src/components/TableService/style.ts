@@ -12,7 +12,8 @@ export const InputStyle = styled.input`
   width: 90%;
   font-size: large;
   text-align: center;
-  background: #c7c7c7;
+  background: #FFF; 
+  selec
   &:focus{
       outline-width: 0;
     }
@@ -30,7 +31,7 @@ export const InputStyle = styled.input`
 export const TdHours = styled.td`
 
   border: 1px solid;
-  background: #c7c7c7;
+  background: #fff;
   width: 175px;
 
   label{
@@ -43,7 +44,7 @@ export const TdHours = styled.td`
 export const TdService = styled.td`
     border: 1px solid;
     width: 351px;
-    background: #c7c7c7;
+    background: #fff;
     label{
     display: flex ;
   align-items: center;
@@ -64,7 +65,7 @@ export const InputService = styled.input`
 
   font-size: 16.5 px;
  
-  background: #c7c7c7;
+  background: #fff;
   &:focus{
       outline-width: 0;
     }
@@ -80,7 +81,7 @@ export const TdTotal = styled.td`
     border: 1px solid;
     width: 123px;
     height: 30px;
-    background: #c7c7c7;
+    background: #fff;
     label{
     display: flex ;
   align-items: center;
@@ -98,6 +99,6 @@ justify-content: center;
    border: 1px solid;
     width: 123px;
     height: 30px;
-    background: #c7c7c7;
+    background: #fff;
 
 `

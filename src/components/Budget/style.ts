@@ -10,15 +10,15 @@ export const FormBudget = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
-background: #d9d9d7;
+background: #fff;
 
  
   input{
-    font-size: smal l;
+    font-size: small;
     border: none;
   
 
-    background: #d9d9d7;
+    background: #fff;
     
     &:focus{
       outline-width: 0;
