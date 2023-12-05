@@ -213,7 +213,7 @@ export function TableService() {
 <ContainerDivTotal>
 <DivTotal><label htmlFor=""> {soma !== null && (
         <div>
-          <strong>Total:</strong> {soma}
+          <strong>Total: R$</strong> {soma}
         </div>
       )}</label></DivTotal>
 </ContainerDivTotal>

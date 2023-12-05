@@ -42,7 +42,7 @@ export const TdHours = styled.td`
 
 export const TdService = styled.td`
     border: 1px solid;
-    width: 334px;
+    width: 351px;
     background: #c7c7c7;
     label{
     display: flex ;
@@ -88,10 +88,12 @@ export const TdTotal = styled.td`
   }
 `
 export const ContainerDivTotal = styled.div`
-  margin-left: 34.15rem;
+  margin-left: 35.2rem;
 `
 export const DivTotal = styled.div`
-
+display: flex;
+align-items: center;
+justify-content: center;
 
    border: 1px solid;
     width: 123px;

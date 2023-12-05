@@ -60,7 +60,7 @@ export const InputName = styled.td`
 `
 export const Address = styled.td`
 
-width: 420px;
+width: 440px;
 `
 
 export const Mask = styled.td`
@@ -87,7 +87,7 @@ export const TdTime = styled.td`
   text-align: center;
 `
 export const TdInformation = styled.td`
-  width: 362px;
+  width: 380px;
  
   input{
     
