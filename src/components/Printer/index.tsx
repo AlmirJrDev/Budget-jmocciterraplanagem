@@ -32,7 +32,7 @@ const ExemploReactToPrint: React.FC = () => {
           <div><ButtonHeader onClick={handleReload}>NOVO</ButtonHeader></div>
           <ReactToPrint
       
-      trigger={() =>   <div><ButtonHeader>IMPRIMIR</ButtonHeader><ButtonHeader>BAIXAR</ButtonHeader></div>}
+      trigger={() =>   <div><ButtonHeader>IMPRIMIR/Baixar</ButtonHeader></div>}
       content={() => componenteRef.current}
     />
           </ContainerHeader>
