@@ -187,7 +187,7 @@ export function TableService() {
 </tr>
 <tr>
 <NumberId><label>12</label></NumberId>
-<TdService><label>  <InputService type="text" value={inputValue3} onChange={handleInputChange3} />{inputValue3 && (
+<TdService><label>  <InputService type="text" value={ inputValue3} onChange={handleInputChange3} />{inputValue3 && (
         
         <input type="checkbox" />
       
@@ -213,7 +213,7 @@ export function TableService() {
 <ContainerDivTotal>
 <DivTotal><label htmlFor=""> {soma !== null && (
         <div>
-          <strong>Total: R$</strong> {soma}
+          <strong>R$ </strong> {soma}
         </div>
       )}</label></DivTotal>
 </ContainerDivTotal>
