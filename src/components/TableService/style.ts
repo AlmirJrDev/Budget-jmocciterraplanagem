@@ -10,6 +10,7 @@ export const ContainerTable = styled.div`
 export const InputStyle = styled.input`
   border: none;
   width: 90%;
+  
   font-size: large;
   text-align: center;
   background: #FFF; 
@@ -62,9 +63,9 @@ export const TdService = styled.td`
 
 export const InputService = styled.input`
  border: none;
+  font-weight: 600;
+  font-size: 15.5px;
 
-  font-size: 16.5 px;
- 
   background: #fff;
   &:focus{
       outline-width: 0;

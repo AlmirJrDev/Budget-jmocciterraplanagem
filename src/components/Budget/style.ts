@@ -51,7 +51,7 @@ background: #fff;
  
 `
 export const InputName = styled.td`
-  width:314.5px;
+  width:324.5px;
   input{
     width: 200px;
     
