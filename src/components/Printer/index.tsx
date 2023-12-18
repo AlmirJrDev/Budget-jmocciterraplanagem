@@ -4,6 +4,7 @@ import { ButtonHeader, ContainerHeader, HeaderDiv } from '../Header/style';
 import { Budget } from '../HeaderBudget';
 import { BudgetSheet } from '../Budget';
 import { TableService } from '../TableService';
+import { Signiture } from '../Signiture';
 
 type ComponenteParaImprimirProps = {
   content: React.ReactNode; // Conteúdo que será impresso
@@ -44,7 +45,8 @@ const ExemploReactToPrint: React.FC = () => {
         ref={componenteRef}
         content={<div><Budget />
         <BudgetSheet /> 
-        <TableService/></div>}
+        <TableService/>
+        <Signiture /></div>}
       />
     </div>
   );
