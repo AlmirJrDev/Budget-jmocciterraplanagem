@@ -12,7 +12,7 @@ export const SignitureSpaceBetween = styled.div`
   display: flex;
   align-items: center;
   justify-content: space-between;
-
+  
   div:first-child{
     margin-right: 4rem;
     text-align: center;
@@ -21,6 +21,13 @@ export const SignitureSpaceBetween = styled.div`
   div:last-child{
     margin-left: 4rem;
     margin-bottom: 3rem;
+  }
+
+  @media (max-width: 505px) {
+    display: none;
+   
+   
+   
   }
 `
 

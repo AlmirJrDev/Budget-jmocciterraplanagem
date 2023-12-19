@@ -91,6 +91,12 @@ export const TdTotal = styled.td`
 `
 export const ContainerDivTotal = styled.div`
   margin-left: 35.2rem;
+
+  @media (max-width: 505px) {
+    
+    margin-left: 17.2rem;
+   
+  }
 `
 export const DivTotal = styled.div`
 display: flex;
