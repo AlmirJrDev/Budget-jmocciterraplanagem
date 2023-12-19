@@ -17,9 +17,9 @@ export function BudgetSheet() {
         <table>
 <tbody>
 <tr>
-<InputName><label >Cliente: <input placeholder="Cliente" type="text" maxLength={29}/></label></InputName>
-<InputCell><label>Tel: <InputMask mask="(99) 99999-9999"  maskChar=""
-                      type="text" /></label> </InputCell>
+<InputName><label >Cliente: </label><input placeholder="Cliente" type="text" maxLength={29}/></InputName>
+<InputCell ><label>Tel:</label><InputMask placeholder="Tel" mask="(99) 99999-9999"  maskChar=""
+                      type="text" /> </InputCell>
 <td><label>Data: <input type="date" /></label> </td>
 </tr>
 </tbody>

@@ -53,20 +53,35 @@ background: #fff;
 export const InputName = styled.td`
   width:337.5px;
   input{
-    width: 200px;
+    width: 79%;
     
   }
 
   @media(max-width: 500px){
   width: 33%;
+  input{
+    width: 80%;
+    
+  }
+  label{
+    display: none;
+  }
  }
   
 `
 
 export const InputCell = styled.td`
- 
+
  @media(max-width: 500px){
   width: 33%;
+
+  input{
+    width: 80%;
+  }
+
+  label{
+    display: none;
+  }
  }
 
 `
