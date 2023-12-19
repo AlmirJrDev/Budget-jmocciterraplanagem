@@ -106,6 +106,10 @@ border: 1px solid #000;
     width: 75%;
     
   }
+
+  @media (max-width:500px){
+    display: none;
+  }
   
 `
 
