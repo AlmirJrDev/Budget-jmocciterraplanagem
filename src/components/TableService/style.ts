@@ -59,6 +59,10 @@ export const TdService = styled.td`
   }
   
   }
+
+  @media (max-width:500px){
+    width: 30%;
+  }
 `
 
 export const InputService = styled.input`
