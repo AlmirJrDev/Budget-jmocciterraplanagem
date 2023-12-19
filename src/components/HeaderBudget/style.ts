@@ -6,6 +6,13 @@ export const ContainerBudGet = styled.section`
   justify-content: center;
   margin-top: 2rem;
 
+  @media (max-width: 375px) {
+    display: none;
+   
+   
+   
+  }
+
 
 
   
