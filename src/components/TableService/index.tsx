@@ -114,43 +114,43 @@ export function TableService() {
   <tr>
 <NumberId><label>1</label></NumberId>
 <TdService><label>Escavadeira Hidraulica <div> <input type="checkbox"/></div> </label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$<InputStyle type="number" value={valorInput1} onChange={handleInputValorChange1}/></label> </TdTotal>
 </tr>
 <tr>
 <NumberId><label>2</label></NumberId>
 <TdService><label>Pá Carregadeira <input type="checkbox" /></label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$<InputStyle type="number" value={valorInput2} onChange={handleInputValorChange2} /></label> </TdTotal>
 </tr>
 <tr>
 <NumberId><label>3</label></NumberId>
 <TdService><label> Retroescavadeira <input type="checkbox" name="" id="" /></label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput3} onChange={handleInputValorChange3}/></label> </TdTotal>
 </tr>
 <tr>
 <NumberId><label>4</label></NumberId>
 <TdService><label>Mini Escavadeira <input type="checkbox" name="" id="" /> </label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput4} onChange={handleInputValorChange4} /></label> </TdTotal>
 </tr>
 <tr>
 <NumberId><label>5</label></NumberId>
 <TdService><label>Mini Carregadeira <input type="checkbox" name="" id="" /> </label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput5} onChange={handleInputValorChange5} /></label> </TdTotal>
 </tr>
 <tr>
 <NumberId><label>6</label></NumberId>
 <TdService><label>Perfuração <input type="checkbox" name="" id="" /> </label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput6} onChange={handleInputValorChange6} /></label> </TdTotal>
 </tr>
 <tr>
 <NumberId><label>7</label></NumberId>
 <TdService><label>Carga de Terra <input type="checkbox" name="" id="" /> </label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput7} onChange={handleInputValorChange7}/></label> </TdTotal>
 </tr>
 <tr>
@@ -162,7 +162,7 @@ export function TableService() {
 <tr>
 <NumberId><label>9</label></NumberId>
 <TdService><label>Deslocamento <input type="checkbox" name="" id="" /> </label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput9} onChange={handleInputValorChange9}/></label> </TdTotal>
 </tr>
 <tr>
@@ -172,7 +172,7 @@ export function TableService() {
         <input type="checkbox" />
       
     )}</label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput10} onChange={handleInputValorChange10}/></label> </TdTotal>
 </tr>
 <tr>
@@ -182,7 +182,7 @@ export function TableService() {
         <input type="checkbox" />
       
     )}</label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput11} onChange={handleInputValorChange11}/></label> </TdTotal>
 </tr>
 <tr>
@@ -192,7 +192,7 @@ export function TableService() {
         <input type="checkbox" />
       
     )}</label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput12} onChange={handleInputValorChange12} /></label> </TdTotal>
 </tr>
 <tr>
@@ -202,7 +202,7 @@ export function TableService() {
         <input type="checkbox" />
       
     )}  </label> </TdService>
-<TdHours><label> <InputStyle type="number" /></label> </TdHours>
+<TdHours><label> <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput13} onChange={handleInputValorChange13} /></label> </TdTotal>
 </tr>
 

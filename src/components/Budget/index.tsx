@@ -27,7 +27,7 @@ export function BudgetSheet() {
 <table>
 <tbody>
 <tr>
-<Address><label >Endereço: <input type="text" maxLength={40}/></label></Address>
+<Address><label >Endereço: <input type="text" maxLength={53}/></label></Address>
 <Mask><label>  <select
                       value={documentType}
                       onChange={(e) => setDocumentType(e.target.value)}
