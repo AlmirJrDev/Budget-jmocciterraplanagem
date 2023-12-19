@@ -1,6 +1,6 @@
 import { NumberId } from "../Budget/style";
 import React, { useState } from 'react';
-import { ContainerDivTotal, ContainerTable, DivTotal, InputService, InputStyle, TdHours, TdService, TdTotal } from "./style";
+import { ContainerDivTotal, ContainerTable, DivTotal, InputService, InputStyle, InputStyleService, TdHours, TdService, TdTotal } from "./style";
 
 export function TableService() {
   const [inputValue, setInputValue] = useState<string>('');
@@ -113,7 +113,18 @@ export function TableService() {
 <tbody>
   <tr>
 <NumberId><label>1</label></NumberId>
-<TdService><label>Escavadeira Hidraulica <div> <input type="checkbox"/></div> </label> </TdService>
+<TdService><label><InputStyleService  type="text" list="Service"  /> 
+<datalist id="Service">
+  <option value="Escavadeira">Escavadeira</option>
+  <option value="Pá Carregadeira "></option>
+  <option value="Retroescavadeira "></option>
+  <option value="Mini Escavadeira"></option>
+  <option value="Mini Carregadeira"></option>
+  <option value="Perfuração"></option>
+  <option value="Carga de Terra "></option>
+  <option value="Carga de Entulho "></option>
+  </datalist>
+   <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list" /> <datalist id="list">
   <option value="Diria">Diria</option>
   </datalist></label> </TdHours>
@@ -121,7 +132,19 @@ export function TableService() {
 </tr>
 <tr>
 <NumberId><label>2</label></NumberId>
-<TdService><label>Pá Carregadeira <input type="checkbox" /></label> </TdService>
+<TdService><label><InputStyleService  type="text" list="Service" /> 
+<datalist id="Service">
+  <option value="Escavadeira"></option>
+  <option value="Pá Carregadeira "></option>
+  <option value="Retroescavadeira "></option>
+  <option value="Mini Escavadeira"></option>
+  <option value="Mini Carregadeira"></option>
+  <option value="Perfuração"></option>
+  <option value="Carga de Terra "></option>
+  <option value="Carga de Entulho "></option>
+  <option value="Deslocamento "></option>
+  </datalist>
+   <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
   <option value="Diria">Diria</option>
   </datalist></label> </TdHours>
@@ -129,7 +152,19 @@ export function TableService() {
 </tr>
 <tr>
 <NumberId><label>3</label></NumberId>
-<TdService><label> Retroescavadeira <input type="checkbox" name="" id="" /></label> </TdService>
+<TdService><label><InputStyleService  type="text" list="Service"/> 
+<datalist id="Service">
+  <option value="Escavadeira">Escavadeira</option>
+  <option value="Pá Carregadeira "></option>
+  <option value="Retroescavadeira "></option>
+  <option value="Mini Escavadeira"></option>
+  <option value="Mini Carregadeira"></option>
+  <option value="Perfuração"></option>
+  <option value="Carga de Terra "></option>
+  <option value="Carga de Entulho "></option>
+  <option value="Deslocamento "></option>
+  </datalist>
+   <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
   <option value="Diria">Diria</option>
   </datalist></label> </TdHours>
@@ -137,7 +172,19 @@ export function TableService() {
 </tr>
 <tr>
 <NumberId><label>4</label></NumberId>
-<TdService><label>Mini Escavadeira <input type="checkbox" name="" id="" /> </label> </TdService>
+<TdService><label><InputStyleService  type="text" list="Service"/> 
+<datalist id="Service">
+  <option value="Escavadeira">Escavadeira</option>
+  <option value="Pá Carregadeira "></option>
+  <option value="Retroescavadeira "></option>
+  <option value="Mini Escavadeira"></option>
+  <option value="Mini Carregadeira"></option>
+  <option value="Perfuração"></option>
+  <option value="Carga de Terra "></option>
+  <option value="Carga de Entulho "></option>
+  <option value="Deslocamento "></option>
+  </datalist>
+   <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
   <option value="Diria">Diria</option>
   </datalist></label> </TdHours>
@@ -145,7 +192,19 @@ export function TableService() {
 </tr>
 <tr>
 <NumberId><label>5</label></NumberId>
-<TdService><label>Mini Carregadeira <input type="checkbox" name="" id="" /> </label> </TdService>
+<TdService><label><InputStyleService  type="text" list="Service"/> 
+<datalist id="Service">
+  <option value="Escavadeira">Escavadeira</option>
+  <option value="Pá Carregadeira "></option>
+  <option value="Retroescavadeira "></option>
+  <option value="Mini Escavadeira"></option>
+  <option value="Mini Carregadeira"></option>
+  <option value="Perfuração"></option>
+  <option value="Carga de Terra "></option>
+  <option value="Carga de Entulho "></option>
+  <option value="Deslocamento "></option>
+  </datalist>
+   <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
   <option value="Diria">Diria</option>
   </datalist></label> </TdHours>
@@ -153,7 +212,19 @@ export function TableService() {
 </tr>
 <tr>
 <NumberId><label>6</label></NumberId>
-<TdService><label>Perfuração <input type="checkbox" name="" id="" /> </label> </TdService>
+<TdService><label><InputStyleService  type="text" list="Service"/> 
+<datalist id="Service">
+  <option value="Escavadeira">Escavadeira</option>
+  <option value="Pá Carregadeira "></option>
+  <option value="Retroescavadeira "></option>
+  <option value="Mini Escavadeira"></option>
+  <option value="Mini Carregadeira"></option>
+  <option value="Perfuração"></option>
+  <option value="Carga de Terra "></option>
+  <option value="Carga de Entulho "></option>
+  <option value="Deslocamento "></option>
+  </datalist>
+   <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
   <option value="Diria">Diria</option>
   </datalist></label> </TdHours>
@@ -161,7 +232,19 @@ export function TableService() {
 </tr>
 <tr>
 <NumberId><label>7</label></NumberId>
-<TdService><label>Carga de Terra <input type="checkbox" name="" id="" /> </label> </TdService>
+<TdService><label><InputStyleService  type="text" list="Service"/> 
+<datalist id="Service">
+  <option value="Escavadeira">Escavadeira</option>
+  <option value="Pá Carregadeira "></option>
+  <option value="Retroescavadeira "></option>
+  <option value="Mini Escavadeira"></option>
+  <option value="Mini Carregadeira"></option>
+  <option value="Perfuração"></option>
+  <option value="Carga de Terra "></option>
+  <option value="Carga de Entulho "></option>
+  <option value="Deslocamento "></option>
+  </datalist>
+   <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
   <option value="Diria">Diria</option>
   </datalist></label> </TdHours>
@@ -169,13 +252,37 @@ export function TableService() {
 </tr>
 <tr>
 <NumberId><label>8</label></NumberId>
-<TdService><label>Carga de Entulho <input type="checkbox" name="" id="" /> </label> </TdService>
+<TdService><label><InputStyleService  type="text" list="Service"/> 
+<datalist id="Service">
+  <option value="Escavadeira">Escavadeira</option>
+  <option value="Pá Carregadeira "></option>
+  <option value="Retroescavadeira "></option>
+  <option value="Mini Escavadeira"></option>
+  <option value="Mini Carregadeira"></option>
+  <option value="Perfuração"></option>
+  <option value="Carga de Terra "></option>
+  <option value="Carga de Entulho "></option>
+  <option value="Deslocamento "></option>
+  </datalist>
+   <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label>  <InputStyle type="text" /></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput8} onChange={handleInputValorChange8}/></label> </TdTotal>
 </tr>
 <tr>
 <NumberId><label>9</label></NumberId>
-<TdService><label>Deslocamento <input type="checkbox" name="" id="" /> </label> </TdService>
+<TdService><label><InputStyleService  type="text" list="Service"/> 
+<datalist id="Service">
+  <option value="Escavadeira">Escavadeira</option>
+  <option value="Pá Carregadeira "></option>
+  <option value="Retroescavadeira "></option>
+  <option value="Mini Escavadeira"></option>
+  <option value="Mini Carregadeira"></option>
+  <option value="Perfuração"></option>
+  <option value="Carga de Terra "></option>
+  <option value="Carga de Entulho "></option>
+  <option value="Deslocamento "></option>
+  </datalist>
+   <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
   <option value="Diria">Diria</option>
   </datalist></label> </TdHours>

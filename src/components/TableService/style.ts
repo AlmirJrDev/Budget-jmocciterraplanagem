@@ -14,7 +14,29 @@ export const InputStyle = styled.input`
   font-size: large;
   text-align: center;
   background: #FFF; 
-  selec
+  
+  &:focus{
+      outline-width: 0;
+    }
+
+    &::-webkit-outer-spin-button,
+&::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+
+
+`
+
+export const InputStyleService = styled.input`
+  border: none;
+  width: 90%;
+  
+  font-size: large;
+  
+  background: #FFF; 
+  
   &:focus{
       outline-width: 0;
     }
@@ -52,9 +74,7 @@ export const TdService = styled.td`
   justify-content: space-between;
 
   input{
-    display: flex ;
-  align-items: center;
-  justify-content: space-between;
+ 
 
   }
   
