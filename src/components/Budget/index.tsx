@@ -1,4 +1,4 @@
-import { Address, BudgetContainer, FormBudget, InputName, Mask, TdInformation, TdTime, TdValor, } from "./style";
+import { Address, BudgetContainer, FormBudget, InputCell, InputName, Mask, TdInformation, TdTime, TdValor, } from "./style";
 import  {  useState } from 'react';
 import InputMask from 'react-input-mask';
 
@@ -17,9 +17,9 @@ export function BudgetSheet() {
         <table>
 <tbody>
 <tr>
-<InputName><label >Cliente: <input type="text" maxLength={29}/></label></InputName>
-<td><label>Tel: <InputMask mask="(99) 99999-9999"  maskChar=""
-                      type="text" /></label> </td>
+<InputName><label >Cliente: <input placeholder="Cliente" type="text" maxLength={29}/></label></InputName>
+<InputCell><label>Tel: <InputMask mask="(99) 99999-9999"  maskChar=""
+                      type="text" /></label> </InputCell>
 <td><label>Data: <input type="date" /></label> </td>
 </tr>
 </tbody>

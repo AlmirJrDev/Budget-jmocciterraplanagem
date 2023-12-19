@@ -56,7 +56,19 @@ export const InputName = styled.td`
     width: 200px;
     
   }
+
+  @media(max-width: 500px){
+  width: 33%;
+ }
   
+`
+
+export const InputCell = styled.td`
+ 
+ @media(max-width: 500px){
+  width: 33%;
+ }
+
 `
 export const Address = styled.td`
 
