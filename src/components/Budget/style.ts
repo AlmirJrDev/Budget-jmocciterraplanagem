@@ -87,17 +87,16 @@ export const InputCell = styled.td`
 `
 export const Address = styled.td`
 
-width: 440px;
+width: 70%;
 `
 
 export const Mask = styled.td`
-width: 245px;
+width: 30%;
 `
 
 export const NumberId = styled.td`
 border: 1px solid #000;
- width: 20px;
- height: 10px;
+ width: 5%;
  text-align: center;
   label{
     text-align: center;
@@ -118,7 +117,7 @@ export const TdTime = styled.td`
   text-align: center;
 `
 export const TdInformation = styled.td`
-  width: 380px;
+  width: 56.2%;
  
   input{
     

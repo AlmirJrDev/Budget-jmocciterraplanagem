@@ -123,6 +123,7 @@ export function TableService() {
   <option value="Perfuração"></option>
   <option value="Carga de Terra "></option>
   <option value="Carga de Entulho "></option>
+  <option value="Deslocamento "></option>
   </datalist>
    <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list" /> <datalist id="list">
