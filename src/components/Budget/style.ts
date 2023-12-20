@@ -113,17 +113,17 @@ border: 1px solid #000;
 `
 
 export const TdTime = styled.td`
-  width: 12.8vw;
+  width: 175px;
   text-align: center;
 `
 export const TdInformation = styled.td`
-  width: 28.4vw;
+  width: 56.2%;
  
   input{
     
   }
 `
 export const TdValor = styled.td`
-  width: 9vw;
+  width: 129px;
   text-align: center;
 `
