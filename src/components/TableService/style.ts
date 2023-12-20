@@ -55,7 +55,7 @@ export const TdHours = styled.td`
 
   border: 1px solid;
   background: #fff;
-  width: 175px;
+  width: 12.8vw;
 
   label{
     display: flex ;
@@ -66,7 +66,7 @@ export const TdHours = styled.td`
 
 export const TdService = styled.td`
     border: 1px solid;
-    width: 351px;
+    width: 25.6vw;
     background: #fff;
     label{
     display: flex ;
@@ -104,7 +104,7 @@ export const InputService = styled.input`
 `
 export const TdTotal = styled.td`
     border: 1px solid;
-    width: 123px;
+    width: 9vw;
     height: 30px;
     background: #fff;
     label{
