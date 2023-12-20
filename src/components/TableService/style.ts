@@ -114,7 +114,16 @@ export const TdTotal = styled.td`
   }
 `
 export const ContainerDivTotal = styled.div`
-  margin-left: 35.2rem;
+display: flex;
+align-items: center;
+justify-content: center;
+textarea{
+  height: 26px;
+  width: 570px;
+
+  font-weight: 600;
+  font-size: 15.5px;
+}
 
   @media (max-width: 505px) {
     
@@ -131,5 +140,6 @@ justify-content: center;
     width: 123px;
     height: 30px;
     background: #fff;
+
 
 `

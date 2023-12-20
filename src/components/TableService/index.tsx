@@ -343,6 +343,7 @@ export function TableService() {
 </tbody>
 </table>
 <ContainerDivTotal>
+  <textarea>OBS:</textarea>
 <DivTotal><label htmlFor=""> {soma !== null && (
         <div>
           <strong>R$ </strong> {soma}
