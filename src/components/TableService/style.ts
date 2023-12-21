@@ -128,7 +128,9 @@ textarea{
   @media (max-width: 505px) {
     
     flex-direction: column;
-    width: 27rem;
+    textarea{
+      width: 30rem;
+    }
   }
 `
 export const DivTotal = styled.div`
