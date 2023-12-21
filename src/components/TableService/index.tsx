@@ -127,7 +127,7 @@ export function TableService() {
   </datalist>
    <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list" /> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$<InputStyle type="number" value={valorInput1} onChange={handleInputValorChange1}/></label> </TdTotal>
 </tr>
@@ -147,7 +147,7 @@ export function TableService() {
   </datalist>
    <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$<InputStyle type="number" value={valorInput2} onChange={handleInputValorChange2} /></label> </TdTotal>
 </tr>
@@ -167,7 +167,7 @@ export function TableService() {
   </datalist>
    <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput3} onChange={handleInputValorChange3}/></label> </TdTotal>
 </tr>
@@ -187,7 +187,7 @@ export function TableService() {
   </datalist>
    <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput4} onChange={handleInputValorChange4} /></label> </TdTotal>
 </tr>
@@ -207,7 +207,7 @@ export function TableService() {
   </datalist>
    <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput5} onChange={handleInputValorChange5} /></label> </TdTotal>
 </tr>
@@ -227,7 +227,7 @@ export function TableService() {
   </datalist>
    <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput6} onChange={handleInputValorChange6} /></label> </TdTotal>
 </tr>
@@ -247,7 +247,7 @@ export function TableService() {
   </datalist>
    <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput7} onChange={handleInputValorChange7}/></label> </TdTotal>
 </tr>
@@ -285,7 +285,7 @@ export function TableService() {
   </datalist>
    <div> <input type="checkbox"/></div> </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput9} onChange={handleInputValorChange9}/></label> </TdTotal>
 </tr>
@@ -297,7 +297,7 @@ export function TableService() {
       
     )}</label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput10} onChange={handleInputValorChange10}/></label> </TdTotal>
 </tr>
@@ -309,7 +309,7 @@ export function TableService() {
       
     )}</label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput11} onChange={handleInputValorChange11}/></label> </TdTotal>
 </tr>
@@ -321,7 +321,7 @@ export function TableService() {
       
     )}</label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput12} onChange={handleInputValorChange12} /></label> </TdTotal>
 </tr>
@@ -333,7 +333,7 @@ export function TableService() {
       
     )}  </label> </TdService>
 <TdHours><label> <InputStyle type="text" list="list"/> <datalist id="list">
-  <option value="Diria">Diria</option>
+  <option value="Diária">Diária</option>
   </datalist></label> </TdHours>
 <TdTotal><label>R$ <InputStyle type="number" value={valorInput13} onChange={handleInputValorChange13} /></label> </TdTotal>
 </tr>
