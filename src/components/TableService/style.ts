@@ -129,7 +129,7 @@ textarea{
     
     flex-direction: column;
     textarea{
-      width: 30rem;
+      width: 25rem;
     }
   }
 `
