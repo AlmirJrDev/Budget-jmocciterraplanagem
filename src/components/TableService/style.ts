@@ -128,7 +128,7 @@ textarea{
   @media (max-width: 505px) {
     
     
-    width: 30rem;
+    width: 27rem;
   }
 `
 export const DivTotal = styled.div`
