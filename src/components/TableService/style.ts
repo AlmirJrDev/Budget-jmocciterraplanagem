@@ -117,18 +117,18 @@ export const ContainerDivTotal = styled.div`
 display: flex;
 align-items: center;
 justify-content: center;
+
 textarea{
   height: 26px;
   width: 570px;
-
   font-weight: 600;
   font-size: 15.5px;
 }
 
   @media (max-width: 505px) {
     
-    margin-left: 17.2rem;
-   
+    
+    width: 30rem;
   }
 `
 export const DivTotal = styled.div`
